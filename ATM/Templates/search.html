@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Receipt Method Details</title>
+  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .btn-default {
+      box-shadow: 1px 2px 5px #000000;
+  }
+  input{
+    width:20%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:3s;
+      }
+      input:focus{
+        border-color:dodgerBlue;
+        box-shadow:0 0 8px 0 dodgerBlue;
+        }
+    body {
+      background-color: #d3e8cb;
+    }
+    </style>
+    <body>
+    <br>
+    <div>
+      <center>
+    <span style='font-size:25px;'>Search Screen</span><br><br>
+  <form name = "PassData" action="." method="POST">
+  <label for="trx">Receipt Method</label>
+    <input type = "text" name="trx" value="" placeholder="Receipt Number plz">
+      <button class="button button1">Submit</button></center>
+  </form>
+  </div>
+  </body>
+</html>

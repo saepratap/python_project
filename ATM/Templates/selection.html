@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+  </head>
+  <center>
+  <h2>Select your Options</h2>
+  <body style="background-color:pink;>
+    <div class="container">
+    <form action="/login" method = "POST">
+      <!--<label for="fpin"><b>Please Select your options</b></label><br><br>-->
+      <a href="{{ url_for('balance') }}" class="text">Balance Enquiry</a><br>
+      <a href="{{ url_for('Withdraw') }}" class="text">Withdraw</a><br>
+      <a href="{{ url_for('ChangePhoneNo') }}" class="text">Change Phone Number</a><br>
+      <a href="{{ url_for('ChangePIN') }}" class="text">Change Pin</a></center>
+    </form>
+    </div>
+  </body>
+</html>
